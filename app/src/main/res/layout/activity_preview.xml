@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Preview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        >
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" />
+
+        <ProgressBar
+            android:id="@+id/pgbar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="192dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginEnd="188dp"
+            android:layout_marginBottom="460dp" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="File name:"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="r"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#000" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:text="Full screen preview"
+        android:id="@+id/fullview"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:text="Download"
+        android:id="@+id/dwnbtn"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/button_shape"
+        android:text="go back"
+        android:id="@+id/goback"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

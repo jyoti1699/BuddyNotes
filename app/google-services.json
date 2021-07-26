@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "632026028116",
+    "firebase_url": "https://buddy-notes-f0c87-default-rtdb.firebaseio.com",
+    "project_id": "buddy-notes-f0c87",
+    "storage_bucket": "buddy-notes-f0c87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632026028116:android:24d6cf23bf474e19fdf5c1",
+        "android_client_info": {
+          "package_name": "com.example.buddynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632026028116-co9ocfbb2s0rlumjo4s3la41f7qouk0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-NzW7hdZDJEy63h81b57tCfrPLxQzQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632026028116-co9ocfbb2s0rlumjo4s3la41f7qouk0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
